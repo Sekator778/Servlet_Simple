@@ -4,4 +4,37 @@
 
 <web-app>
   <display-name>Archetype Created Web Application</display-name>
+
+  <servlet>
+    <servlet-name>MyServletname</servlet-name>
+    <servlet-class>MyServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>MyServletname</servlet-name>
+    <url-pattern>/MyServlettest</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>anyname</servlet-name>
+    <servlet-class>ru.job4j.dream.servlets.TestServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>anyname</servlet-name>
+    <url-pattern>/SomePattern</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>controller</servlet-name>
+    <servlet-class>ru.job4j.dream.servlets.ContServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+  <servlet-name>controller</servlet-name>
+    <url-pattern>/serv</url-pattern>
+  </servlet-mapping>
+
 </web-app>
+
+
