@@ -38,6 +38,10 @@
 <p>
     <a href="sender2.jsp">postuser send 2</a>
 </p>
+<p>
+    Передача данных из сервлета в jsp
+    <a href="/hello">обратимся к сервлету HelloServlet, то он передаст запрос и данные странице basic.jsp</a>
+</p>
 
 <%--<div class="container">--%>
 <%--    <div class="row">--%>

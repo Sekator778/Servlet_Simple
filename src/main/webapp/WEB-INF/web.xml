@@ -34,6 +34,15 @@
   <servlet-name>controller</servlet-name>
     <url-pattern>/serv</url-pattern>
   </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>HelloServlet</servlet-name>
+    <servlet-class>ru.job4j.dream.servlets.HelloServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>HelloServlet</servlet-name>
+    <url-pattern>/hello</url-pattern>
+  </servlet-mapping>
 
 </web-app>
 
